@@ -59,6 +59,7 @@ span {
   padding: 15px 30px;
   border-radius: 30px;
   font-weight: 700;
+  float: right;
 }
 .coupon-button {
   text-decoration: none;
@@ -144,7 +145,8 @@ span {
   padding-left: 700px;
   padding-top: 30px;
 }
-.app-section span {
+
+.button-space {
   padding-right: 30px;
 }
 
