@@ -18,7 +18,7 @@ span {
 .about-section {
   display: flex;
   margin-top: 100px;
-  padding-top: 100px;
+  padding-top: 150px;
   background-image: url(images/shapes/Frame\ 56.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -35,6 +35,11 @@ span {
   padding-top: 20px;
   width: 100%;
 }
+.width-fix-2 img {
+  padding-top: 53px;
+  width: 120%;
+  transform: scaleX(-1);
+}
 .order-button {
   text-decoration: none;
   color: white;
@@ -50,4 +55,24 @@ span {
   padding: 15px 30px;
   border-radius: 30px;
   font-weight: 700;
+}
+.recipe-text {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.recipe-tile-cluster {
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.recipe-tile {
+  border: 5px solid white;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 15px;
+  box-shadow: 0px 0px 30px #c9c9c9;
+}
+.recipe-tile img {
+  width: 100%;
 }
