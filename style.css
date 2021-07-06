@@ -60,6 +60,22 @@ span {
   border-radius: 30px;
   font-weight: 700;
 }
+.coupon-button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #574ee8, #1f15c7);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.app-button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #574ee8, #1f15c7);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+}
 .recipe-text {
   text-align: center;
   margin-left: 30%;
@@ -91,6 +107,46 @@ span {
   padding-left: 10%;
   padding-right: 10%;
 }
+.coupon-section {
+  display: flex;
+  border: 5px solid transparent;
+  border-radius: 20px;
+  margin: 9%;
+  padding-left: 50px;
+  box-shadow: 0px 0px 30px #c9c9c9;
+  background-image: url(images/male/31602633-happy-man-with-unhealthy-burger-sandwich-in-hand-get-ready-to-eat-isolated-on-a-white-background-fas-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-x: right;
+}
+.coupon-section div {
+  padding-left: 50px;
+  padding-top: 60px;
+}
+.app-section {
+  border: 5px solid transparent;
+  border-radius: 20px;
+  margin: 9%;
+  padding-left: 50px;
+  padding-bottom: 100px;
+  box-shadow: 0px 0px 30px #c9c9c9;
+  background-image: url(images/male/guy-eats-hot-dog-which-himself-has-prepared-street-food-young-man-blue-shirt-eats-hot-dog-white-background-100449486-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+.app-section h1 {
+  padding-right: 50px;
+  text-align: right;
+}
+.app-section div {
+  padding-left: 700px;
+  padding-top: 30px;
+}
+.app-section span {
+  padding-right: 30px;
+}
 
 footer {
   text-align: center;
@@ -98,4 +154,7 @@ footer {
   background-color: #0b0d17;
   padding-top: 20px;
   padding-bottom: 80px;
+}
+footer h3 {
+  color: #c9c9c9;
 }
